@@ -40,14 +40,14 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      <img src="./assets/profile-pic.png" alt="Milind Rai profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Milind Rai</h1>
       <p class="section__text__p2">Backend Developer</p>
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/Milind_Rai_Resume.pdf')">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Milind_Rai_Resume.pdf', '_blank')">
           Download CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -55,13 +55,16 @@
         </button>
       </div>
       <div id="socials-container">
-        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+        <img src="./assets/linkedin.svg" alt="My LinkedIn profile" class="icon"
           onclick="window.open('https://www.linkedin.com/in/milind-rai/', '_blank')" />
-        <img src="./assets/github.png" alt="My Github profile" class="icon"
-          onclick="location.href='https://github.com/milindrai'" />
+        <img src="./assets/github.svg" alt="My GitHub profile" class="icon"
+          onclick="window.open('https://github.com/milindrai', '_blank')" />
+        <img src="./assets/leetcode.svg" alt="My LeetCode profile" class="icon"
+          onclick="window.open('https://leetcode.com/milindrai', '_blank')" />
       </div>
     </div>
-  </section>
+</section>
+
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
@@ -79,17 +82,24 @@
           <div class="details-container">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
             <h3>Education</h3>
-            <p>Currently Persuing B.Tech from GLA University</p>
+            <p>Currently Persuing B.Tech from GLA University, Mathura</p>
           </div>
         </div>
         <div class="text-container">
           <p>
-            I'm Milind Rai, a B.Tech 3rd Year Computer Science student at GLA University. I've built a feature-rich
-            Social Media Platform using MongoDB, Express.js, and Node.js. Additionally, I've developed a comprehensive
-            Hospital Management System using Node.js, Express.js, and MySQL. I've also completed a MongoDB course and a
-            Web Development internship at Zidio Development. Open to roles in Web Development, Frontend and Backend
-            Development. Let's connect and explore tech together!
+            Hi, I'm Milind Rai, a 3rd-year B.Tech Computer Science student at GLA University, Mathura. Here's a quick overview of my profile:
           </p>
+          <ul>
+            <li>Practical experience in backend development with technologies like <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong>, and <strong>MySQL</strong>.</li>
+            <li>Completed a <strong>MongoDB certification</strong> and a <strong>Web Development internship</strong> at Zidio.</li>
+            <li>Recognized for project excellence at the <strong>S3 Showcase</strong>.</li>
+            <li>Solved <strong>150+ algorithmic challenges</strong> on <strong>LeetCode</strong>.</li>
+            <li>Proficient in <strong>Python</strong>, <strong>JavaScript</strong>, and cloud platforms like <strong>AWS</strong>, <strong>GCP</strong>, and <strong>Azure</strong>.</li>
+          </ul>
+          <p>
+            I am actively seeking opportunities in <strong>Backend Development</strong>, <strong>Web Development</strong>, or <strong>Cloud Automation</strong> roles.
+          </p>
+          <p>Let’s connect and explore tech together!</p>
         </div>
       </div>
     </div>
@@ -100,50 +110,20 @@
     <h1 class="title">Experience</h1>
     <div class="experience-details-container">
       <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Frontend Development</h2>
-          <div class="article-container">
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>HTML</h3>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>CSS</h3>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>JavaScript</h3>
-              </div>
-            </article>
-
-          </div>
-        </div>
+        <!-- Backend Development Section -->
         <div class="details-container">
           <h2 class="experience-sub-title">Backend Development</h2>
           <div class="article-container">
-
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>Node JS</h3>
+                <h3>Node.js</h3>
               </div>
             </article>
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>Express JS</h3>
-              </div>
-            </article>
-            <article>
-              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-              <div>
-                <h3>Git</h3>
+                <h3>Express.js</h3>
               </div>
             </article>
             <article>
@@ -161,7 +141,50 @@
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
+                <h3>JSON Web Tokens (JWT)</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>REST APIs</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Cloud and Tools Section -->
+        <div class="details-container">
+          <h2 class="experience-sub-title">Cloud & Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
                 <h3>AWS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>GCP</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Terraform</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>VSCode</h3>
               </div>
             </article>
           </div>
@@ -169,79 +192,128 @@
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
-  </section>
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.webp" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Hospital-Management-System</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/milindrai/Hospital-Management-System'">
-              Github
-            </button>
-          </div>
+</section>
+
+<section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Hospital Management System -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-1.webp" alt="Hospital Management System" class="project-img" />
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-2.webp" alt="Project 2" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">SocialMedia</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/milindrai/SocialMedia'">
-              Github
-            </button>
-          </div>
+        <h2 class="experience-sub-title project-title">Hospital Management System</h2>
+        <p class="project-description">
+          Designed and implemented a comprehensive backend solution for hospital operations using <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MySQL</strong>. Features include patient management, appointment scheduling, role-based access control, and secure communication.
+        </p>
+        <div class="btn-container">
+          <a href="https://github.com/milindrai/Hospital-Management-System" target="_blank" class="btn btn-color-2 project-btn">
+            Github
+          </a>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-3.webp" alt="Project 3" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Expenses-Sharing-App</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/milindrai/expenses-sharing-app'">
-              Github
-            </button>
-          </div>
+      </div>
+
+      <!-- E-Commerce Application -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-3.webp" alt="E-Commerce Application" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">E-Commerce Application</h2>
+        <p class="project-description">
+          Developed a backend ecosystem for online retail operations using <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>. Integrated modules for product cataloging, shopping cart management, payment processing, and authentication using <strong>REST APIs</strong> and <strong>JWT</strong>.
+        </p>
+        <div class="btn-container">
+          <a href="https://github.com/milindrai/E-Commerce-Application" target="_blank" class="btn btn-color-2 project-btn">
+            Github
+          </a>
+        </div>
+      </div>
+
+      <!-- Social Media Application -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-2.webp" alt="Social Media Application" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Social Media Application</h2>
+        <p class="project-description">
+          Built a feature-rich backend for a social networking platform using <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>. Enabled user interactions like creating posts, liking, commenting, and follower-based networking. Integrated secure authentication using <strong>JSON Web Tokens (JWT)</strong>.
+        </p>
+        <div class="btn-container">
+          <a href="https://github.com/milindrai/SocialMedia" target="_blank" class="btn btn-color-2 project-btn">
+            Github
+          </a>
+        </div>
+      </div>
+
+
+      <!-- Expenses Sharing App -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-3.webp" alt="Expenses Sharing App" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Expenses Sharing Application</h2>
+        <p class="project-description">
+          Developed a collaborative application for tracking and splitting shared expenses among groups. Built using <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong>, with a user-friendly interface and secure data handling mechanisms.
+        </p>
+        <div class="btn-container">
+          <a href="https://github.com/milindrai/expenses-sharing-app" target="_blank" class="btn btn-color-2 project-btn">
+            Github
+          </a>
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
-  </section>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-        <p><a href="mailto:examplemail@gmail.com">milindrai365@gmail.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-        <p><a href="https://www.linkedin.com/in/milind-rai/">LinkedIn</a></p>
-      </div>
+  </div>
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>
+
+
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <!-- Email -->
+    <div class="contact-info-container">
+      <img src="./assets/gmail.svg" alt="Email icon" class="icon contact-icon email-icon" />
+      <p><a href="mailto:milindrai365@gmail.com">milindrai365@gmail.com</a></p>
     </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <p>Copyright &#169; 2024 Milind Rai. All Rights Reserved.</p>
-  </footer>
+    
+    <!-- LinkedIn -->
+    <div class="contact-info-container">
+      <img src="./assets/linkedin.svg" alt="LinkedIn icon" class="icon contact-icon" />
+      <p><a href="https://www.linkedin.com/in/milind-rai/" target="_blank">LinkedIn</a></p>
+    </div>
+    
+    <!-- GitHub -->
+    <div class="contact-info-container">
+      <img src="./assets/github.svg" alt="GitHub icon" class="icon contact-icon" />
+      <p><a href="https://github.com/milindrai" target="_blank">GitHub</a></p>
+    </div>
+    
+    <!-- LeetCode -->
+    <div class="contact-info-container">
+      <img src="./assets/leetcode.svg" alt="LeetCode icon" class="icon contact-icon" />
+      <p><a href="https://leetcode.com/milindrai" target="_blank">LeetCode</a></p>
+    </div>
+    
+  </div>
+</section>
+
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Milind Rai. All Rights Reserved.</p>
+</footer>
+
   <script src="script.js"></script>
 </body>
 
